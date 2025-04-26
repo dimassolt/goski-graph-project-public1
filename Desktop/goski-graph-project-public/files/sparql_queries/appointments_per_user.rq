@@ -1,0 +1,12 @@
+PREFIX ski: <http://example.org/ski#>
+
+SELECT ?person ?email ?appointment ?startTime ?appointmentID
+WHERE {
+  ?person a ski:Person ;
+          ski:email ?email ;
+          ski:hasAppointment ?appointment .
+
+  ?appointment ski:startTime ?startTime ;
+               ski:appointmentID ?appointmentID .
+}
+ORDER BY ?email ?startTime

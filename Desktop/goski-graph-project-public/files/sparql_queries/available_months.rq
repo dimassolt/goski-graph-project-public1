@@ -1,0 +1,7 @@
+PREFIX ski: <http://example.org/ski#>
+
+SELECT DISTINCT ?startTime
+WHERE {
+  ?appointment a ski:Appointment ;
+               ski:startTime ?startTime .
+}

@@ -1,0 +1,55 @@
+PREFIX ski: <http://example.org/ski#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?startTime ?normalizedLabel (SUM(?courseCount) AS ?totalCourses)
+WHERE {
+  {
+    # === Group classes: aggregate people by time + normalized class type ===
+    SELECT ?startTime ?timeGroup ?normalizedLabel (CEIL(COUNT(?person) / 6) AS ?courseCount)
+    WHERE {
+      ?appointment a ski:Appointment ;
+                   ski:startTime ?startTime ;
+                   ski:hasClassType ?classType .
+      ?classType ski:className ?classTypeLabel .
+      ?person ski:hasAppointment ?appointment .
+
+      FILTER(CONTAINS(LCASE(STR(?classTypeLabel)), "group"))
+
+      BIND(
+        IF(CONTAINS(LCASE(STR(?classTypeLabel)), "classic"), "Classic Group",
+        IF(CONTAINS(LCASE(STR(?classTypeLabel)), "skating"), "Skating Group", "Other Group"))
+        AS ?normalizedLabel
+      )
+
+      BIND(CONCAT(STR(?startTime), "_", ?normalizedLabel) AS ?timeGroup)
+    }
+    GROUP BY ?startTime ?timeGroup ?normalizedLabel
+  }
+
+  UNION
+
+  {
+    # === Private and Nordic: one appointment = one course ===
+    SELECT ?startTime ?normalizedLabel (COUNT(DISTINCT ?appointment) AS ?courseCount)
+    WHERE {
+      ?appointment a ski:Appointment ;
+                   ski:startTime ?startTime ;
+                   ski:hasClassType ?classType .
+      ?classType ski:className ?classTypeLabel .
+
+      BIND(
+        IF(CONTAINS(LCASE(STR(?classTypeLabel)), "nordic"), "Nordic Experience",
+        IF(CONTAINS(LCASE(STR(?classTypeLabel)), "private"), "Private", "Other"))
+        AS ?normalizedLabel
+      )
+
+      FILTER(
+        CONTAINS(LCASE(STR(?classTypeLabel)), "private") ||
+        CONTAINS(LCASE(STR(?classTypeLabel)), "nordic")
+      )
+    }
+    GROUP BY ?startTime ?normalizedLabel
+  }
+}
+GROUP BY ?startTime ?normalizedLabel
+ORDER BY DESC(?totalCourses)

@@ -1,0 +1,25 @@
+FROM python:3.10-slim
+
+# Building Attributes
+ARG BUILD_DATE
+ARG VERSION
+ARG COMPONENT_NAME
+ENV COMPONENT ${COMPONENT_NAME}
+
+RUN apt-get update && apt-get install -y \
+    git \
+    gcc \
+    libpq-dev \
+    python3-dev
+
+
+RUN python -m pip install --no-cache --upgrade setuptools pip
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+WORKDIR /opt/${COMPONENT}
+
+COPY clean_prices_etl.py clean_prices_etl.py
+COPY __main__.py __main__.py
+
+ENTRYPOINT python clean_prices_etl.py && python __main__.py -o $OUTPUT_KG $INPUT_MAPPING $ONTOLOGY
