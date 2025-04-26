@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    demo:
+      email: goski_admin@example.com
+      name: Demo GoSki
+      password: $2b$12$eUxo7NnHkQVOn4utZEbhyOBDzV6viel6aOfJspP3T6549jV0eTxEm
+cookie:
+  expiry_days: 30
+  key: your_random_signature_key
+  name: your_cookie_name
+
+preauthorized:
+  emails:
+    - goski@example.com
+

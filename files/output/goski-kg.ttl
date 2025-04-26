@@ -1,0 +1,1603 @@
+@prefix ns1: <http://example.org/ski#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/kg/Person_anthony94%40hotmail.com> a ns1:Person ;
+    ns1:email "anthony94@hotmail.com"^^xsd:string ;
+    ns1:firstName "Joseph"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1416692907> ;
+    ns1:lastName "Elliott"^^xsd:string ;
+    ns1:phone "001-226-970-1796x220"^^xsd:string .
+
+<http://example.org/kg/Person_barroncaitlin%40dyer-ross.org> a ns1:Person ;
+    ns1:email "barroncaitlin@dyer-ross.org"^^xsd:string ;
+    ns1:firstName "Lisa"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1407324565> ;
+    ns1:lastName "Garcia"^^xsd:string ;
+    ns1:phone "998-135-5951x351"^^xsd:string .
+
+<http://example.org/kg/Person_benjamin14%40hotmail.com> a ns1:Person ;
+    ns1:email "benjamin14@hotmail.com"^^xsd:string ;
+    ns1:firstName "Maureen"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1415070864> ;
+    ns1:lastName "Roberts"^^xsd:string ;
+    ns1:phone "375.758.3426x7032"^^xsd:string .
+
+<http://example.org/kg/Person_bensonlynn%40mills.com> a ns1:Person ;
+    ns1:email "bensonlynn@mills.com"^^xsd:string ;
+    ns1:firstName "Kathleen"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1418884268>,
+        <http://example.org/kg/Appointment_1418884269> ;
+    ns1:lastName "Harris"^^xsd:string ;
+    ns1:phone "056-715-9642x51031"^^xsd:string .
+
+<http://example.org/kg/Person_bradley81%40yahoo.com> a ns1:Person ;
+    ns1:email "bradley81@yahoo.com"^^xsd:string ;
+    ns1:firstName "Elizabeth"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1418129980> ;
+    ns1:lastName "Oliver"^^xsd:string ;
+    ns1:phone "(636)920-8184x523"^^xsd:string .
+
+<http://example.org/kg/Person_brandymedina%40schmidt.org> a ns1:Person ;
+    ns1:email "brandymedina@schmidt.org"^^xsd:string ;
+    ns1:firstName "Bridget"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1421219349> ;
+    ns1:lastName "Chen"^^xsd:string ;
+    ns1:phone "514-169-3028x66913"^^xsd:string .
+
+<http://example.org/kg/Person_brittanymartinez%40dean.com> a ns1:Person ;
+    ns1:email "brittanymartinez@dean.com"^^xsd:string ;
+    ns1:firstName "James"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1420993749> ;
+    ns1:lastName "Mitchell"^^xsd:string ;
+    ns1:phone "001-387-377-6012x502"^^xsd:string .
+
+<http://example.org/kg/Person_charlestaylor%40saunders.com> a ns1:Person ;
+    ns1:email "charlestaylor@saunders.com"^^xsd:string ;
+    ns1:firstName "Maria"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1406914023> ;
+    ns1:lastName "Myers"^^xsd:string ;
+    ns1:phone "+1-337-776-4248x711"^^xsd:string .
+
+<http://example.org/kg/Person_christopherstrong%40martinez.com> a ns1:Person ;
+    ns1:email "christopherstrong@martinez.com"^^xsd:string ;
+    ns1:firstName "John"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1401622687>,
+        <http://example.org/kg/Appointment_1401622688> ;
+    ns1:lastName "Gray"^^xsd:string ;
+    ns1:phone "683.425.2293x0983"^^xsd:string .
+
+<http://example.org/kg/Person_dakotasimpson%40hotmail.com> a ns1:Person ;
+    ns1:email "dakotasimpson@hotmail.com"^^xsd:string ;
+    ns1:firstName "Chelsea"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1406501958> ;
+    ns1:lastName "Wright"^^xsd:string ;
+    ns1:phone "001-069-966-0428x54712"^^xsd:string .
+
+<http://example.org/kg/Person_dannygardner%40yahoo.com> a ns1:Person ;
+    ns1:email "dannygardner@yahoo.com"^^xsd:string ;
+    ns1:firstName "Mark"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1410967953>,
+        <http://example.org/kg/Appointment_1410967954> ;
+    ns1:lastName "Howard"^^xsd:string ;
+    ns1:phone "+1-847-337-7833x00148"^^xsd:string .
+
+<http://example.org/kg/Person_dcox%40gmail.com> a ns1:Person ;
+    ns1:email "dcox@gmail.com"^^xsd:string ;
+    ns1:firstName "Cheryl"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1414615200> ;
+    ns1:lastName "Baker"^^xsd:string ;
+    ns1:phone "361-209-5107x489"^^xsd:string .
+
+<http://example.org/kg/Person_edavidson%40gmail.com> a ns1:Person ;
+    ns1:email "edavidson@gmail.com"^^xsd:string ;
+    ns1:firstName "Katherine"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1402960225>,
+        <http://example.org/kg/Appointment_1402960229> ;
+    ns1:lastName "Delgado"^^xsd:string ;
+    ns1:phone "001-919-126-6669"^^xsd:string .
+
+<http://example.org/kg/Person_fostertimothy%40gmail.com> a ns1:Person ;
+    ns1:email "fostertimothy@gmail.com"^^xsd:string ;
+    ns1:firstName "Erin"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1404817630> ;
+    ns1:lastName "Patterson"^^xsd:string ;
+    ns1:phone "+1-891-210-3766x496"^^xsd:string .
+
+<http://example.org/kg/Person_howardhannah%40hotmail.com> a ns1:Person ;
+    ns1:email "howardhannah@hotmail.com"^^xsd:string ;
+    ns1:firstName "Alan"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1410646753> ;
+    ns1:lastName "Adkins"^^xsd:string ;
+    ns1:phone "−5635"^^xsd:string .
+
+<http://example.org/kg/Person_huffmanlucas%40yahoo.com> a ns1:Person ;
+    ns1:email "huffmanlucas@yahoo.com"^^xsd:string ;
+    ns1:firstName "Mark"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1402580868> ;
+    ns1:lastName "Pena"^^xsd:string ;
+    ns1:phone "001-489-691-8031x8773"^^xsd:string .
+
+<http://example.org/kg/Person_ihansen%40wang.com> a ns1:Person ;
+    ns1:email "ihansen@wang.com"^^xsd:string ;
+    ns1:firstName "James"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1416312756> ;
+    ns1:lastName "Guerrero"^^xsd:string ;
+    ns1:phone "255.546.8553"^^xsd:string .
+
+<http://example.org/kg/Person_james30%40castro.com> a ns1:Person ;
+    ns1:email "james30@castro.com"^^xsd:string ;
+    ns1:firstName "Daniel"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1419093483> ;
+    ns1:lastName "Cunningham"^^xsd:string ;
+    ns1:phone "(408)051-8745x50644"^^xsd:string .
+
+<http://example.org/kg/Person_jbell%40bradshaw.net> a ns1:Person ;
+    ns1:email "jbell@bradshaw.net"^^xsd:string ;
+    ns1:firstName "Teresa"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1413830084> ;
+    ns1:lastName "Davis"^^xsd:string ;
+    ns1:phone "593.614.2621"^^xsd:string .
+
+<http://example.org/kg/Person_jeremy98%40hotmail.com> a ns1:Person ;
+    ns1:email "jeremy98@hotmail.com"^^xsd:string ;
+    ns1:firstName "Mindy"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1415712223> ;
+    ns1:lastName "Shannon"^^xsd:string ;
+    ns1:phone "795516391"^^xsd:string .
+
+<http://example.org/kg/Person_jeremykirk%40gmail.com> a ns1:Person ;
+    ns1:email "jeremykirk@gmail.com"^^xsd:string ;
+    ns1:firstName "Alexander"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1405544425> ;
+    ns1:lastName "Mcdonald"^^xsd:string ;
+    ns1:phone "+1-053-222-4832x2538"^^xsd:string .
+
+<http://example.org/kg/Person_jessicabarron%40roberts-walker.info> a ns1:Person ;
+    ns1:email "jessicabarron@roberts-walker.info"^^xsd:string ;
+    ns1:firstName "Ryan"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1407627989> ;
+    ns1:lastName "Bond"^^xsd:string ;
+    ns1:phone "507-068-8062x22866"^^xsd:string .
+
+<http://example.org/kg/Person_jonesbradley%40gmail.com> a ns1:Person ;
+    ns1:email "jonesbradley@gmail.com"^^xsd:string ;
+    ns1:firstName "Grant"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1423209559> ;
+    ns1:lastName "Gonzalez"^^xsd:string ;
+    ns1:phone "+1-594-790-1924x9929"^^xsd:string .
+
+<http://example.org/kg/Person_keith40%40scott.info> a ns1:Person ;
+    ns1:email "keith40@scott.info"^^xsd:string ;
+    ns1:firstName "Bethany"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1348240786> ;
+    ns1:lastName "Morris"^^xsd:string ;
+    ns1:phone "782-665-3507x931"^^xsd:string .
+
+<http://example.org/kg/Person_kevingray%40hart.biz> a ns1:Person ;
+    ns1:email "kevingray@hart.biz"^^xsd:string ;
+    ns1:firstName "Kathy"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1411842671> ;
+    ns1:lastName "Decker"^^xsd:string ;
+    ns1:phone "+1-788-571-6304x49695"^^xsd:string .
+
+<http://example.org/kg/Person_klowery%40hotmail.com> a ns1:Person ;
+    ns1:email "klowery@hotmail.com"^^xsd:string ;
+    ns1:firstName "Carol"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1415537175> ;
+    ns1:lastName "Hart"^^xsd:string ;
+    ns1:phone "525-287-0065x818"^^xsd:string .
+
+<http://example.org/kg/Person_kristenkeith%40hotmail.com> a ns1:Person ;
+    ns1:email "kristenkeith@hotmail.com"^^xsd:string ;
+    ns1:firstName "Christopher"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1416000146>,
+        <http://example.org/kg/Appointment_1416000148> ;
+    ns1:lastName "Baker"^^xsd:string ;
+    ns1:phone "1015666460"^^xsd:string .
+
+<http://example.org/kg/Person_kristine10%40yahoo.com> a ns1:Person ;
+    ns1:email "kristine10@yahoo.com"^^xsd:string ;
+    ns1:firstName "James"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1417375178> ;
+    ns1:lastName "Richards"^^xsd:string ;
+    ns1:phone "904-893-8382x2730"^^xsd:string .
+
+<http://example.org/kg/Person_ksilva%40miller.com> a ns1:Person ;
+    ns1:email "ksilva@miller.com"^^xsd:string ;
+    ns1:firstName "Nathan"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1418692512> ;
+    ns1:lastName "Johns"^^xsd:string ;
+    ns1:phone "228.939.3960"^^xsd:string .
+
+<http://example.org/kg/Person_lisahess%40lewis.com> a ns1:Person ;
+    ns1:email "lisahess@lewis.com"^^xsd:string ;
+    ns1:firstName "Christian"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1403822684>,
+        <http://example.org/kg/Appointment_1403822693> ;
+    ns1:lastName "Cardenas"^^xsd:string ;
+    ns1:phone "001-741-655-8065x50647"^^xsd:string .
+
+<http://example.org/kg/Person_macdonalddavid%40lambert.com> a ns1:Person ;
+    ns1:email "macdonalddavid@lambert.com"^^xsd:string ;
+    ns1:firstName "Samantha"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1387765401> ;
+    ns1:lastName "Smith"^^xsd:string ;
+    ns1:phone "001-413-254-9573"^^xsd:string .
+
+<http://example.org/kg/Person_mccoymark%40hotmail.com> a ns1:Person ;
+    ns1:email "mccoymark@hotmail.com"^^xsd:string ;
+    ns1:firstName "Taylor"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1414772368> ;
+    ns1:lastName "Smith"^^xsd:string ;
+    ns1:phone "001-626-045-2902x0788"^^xsd:string .
+
+<http://example.org/kg/Person_megan68%40johnson.net> a ns1:Person ;
+    ns1:email "megan68@johnson.net"^^xsd:string ;
+    ns1:firstName "Gabriela"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1413051987> ;
+    ns1:lastName "Davis"^^xsd:string ;
+    ns1:phone "332.543.8190"^^xsd:string .
+
+<http://example.org/kg/Person_millermichelle%40hotmail.com> a ns1:Person ;
+    ns1:email "millermichelle@hotmail.com"^^xsd:string ;
+    ns1:firstName "Michael"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1410968268>,
+        <http://example.org/kg/Appointment_1410968269> ;
+    ns1:lastName "Morales"^^xsd:string ;
+    ns1:phone "2020719251"^^xsd:string .
+
+<http://example.org/kg/Person_misty24%40gmail.com> a ns1:Person ;
+    ns1:email "misty24@gmail.com"^^xsd:string ;
+    ns1:firstName "Kelly"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1406463792> ;
+    ns1:lastName "Moore"^^xsd:string ;
+    ns1:phone "024.154.4800"^^xsd:string .
+
+<http://example.org/kg/Person_mistyvargas%40yahoo.com> a ns1:Person ;
+    ns1:email "mistyvargas@yahoo.com"^^xsd:string ;
+    ns1:firstName "Brandy"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1422684728> ;
+    ns1:lastName "Hale"^^xsd:string ;
+    ns1:phone "001-156-639-6515x771"^^xsd:string .
+
+<http://example.org/kg/Person_mware%40hotmail.com> a ns1:Person ;
+    ns1:email "mware@hotmail.com"^^xsd:string ;
+    ns1:firstName "Lauren"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1418179589>,
+        <http://example.org/kg/Appointment_1418179592> ;
+    ns1:lastName "Patel"^^xsd:string ;
+    ns1:phone "(102)939-6805x871"^^xsd:string .
+
+<http://example.org/kg/Person_nnewman%40yahoo.com> a ns1:Person ;
+    ns1:email "nnewman@yahoo.com"^^xsd:string ;
+    ns1:firstName "Michael"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1405791444>,
+        <http://example.org/kg/Appointment_1405791446> ;
+    ns1:lastName "Carson"^^xsd:string ;
+    ns1:phone "001-279-523-4550"^^xsd:string .
+
+<http://example.org/kg/Person_oreyes%40yahoo.com> a ns1:Person ;
+    ns1:email "oreyes@yahoo.com"^^xsd:string ;
+    ns1:firstName "Amanda"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1421250532> ;
+    ns1:lastName "Carter"^^xsd:string ;
+    ns1:phone "001-106-841-1456x62656"^^xsd:string .
+
+<http://example.org/kg/Person_pbrown%40hotmail.com> a ns1:Person ;
+    ns1:email "pbrown@hotmail.com"^^xsd:string ;
+    ns1:firstName "Michael"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1413817587> ;
+    ns1:lastName "Stone"^^xsd:string ;
+    ns1:phone "+1-979-687-4737x7110"^^xsd:string .
+
+<http://example.org/kg/Person_petermorris%40yahoo.com> a ns1:Person ;
+    ns1:email "petermorris@yahoo.com"^^xsd:string ;
+    ns1:firstName "Sydney"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1406486894> ;
+    ns1:lastName "Brown"^^xsd:string ;
+    ns1:phone "636-787-9949x6840"^^xsd:string .
+
+<http://example.org/kg/Person_pjensen%40gaines-guzman.com> a ns1:Person ;
+    ns1:email "pjensen@gaines-guzman.com"^^xsd:string ;
+    ns1:firstName "Walter"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1422995490> ;
+    ns1:lastName "Arnold"^^xsd:string ;
+    ns1:phone "653.295.0892x2218"^^xsd:string .
+
+<http://example.org/kg/Person_qbeasley%40george.net> a ns1:Person ;
+    ns1:email "qbeasley@george.net"^^xsd:string ;
+    ns1:firstName "Tammy"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1406472449>,
+        <http://example.org/kg/Appointment_1406472450> ;
+    ns1:lastName "Davis"^^xsd:string ;
+    ns1:phone "067.662.7600"^^xsd:string .
+
+<http://example.org/kg/Person_qgonzales%40lewis-morris.info> a ns1:Person ;
+    ns1:email "qgonzales@lewis-morris.info"^^xsd:string ;
+    ns1:firstName "Patricia"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1421290137> ;
+    ns1:lastName "Clark"^^xsd:string ;
+    ns1:phone "569-543-2566x34876"^^xsd:string .
+
+<http://example.org/kg/Person_qlevy%40bowman.com> a ns1:Person ;
+    ns1:email "qlevy@bowman.com"^^xsd:string ;
+    ns1:firstName "Christina"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1405459243>,
+        <http://example.org/kg/Appointment_1405459244> ;
+    ns1:lastName "Bowman"^^xsd:string ;
+    ns1:phone "001-778-548-1701x7712"^^xsd:string .
+
+<http://example.org/kg/Person_qrodriguez%40gmail.com> a ns1:Person ;
+    ns1:email "qrodriguez@gmail.com"^^xsd:string ;
+    ns1:firstName "Andrew"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1403767536> ;
+    ns1:lastName "Jackson"^^xsd:string ;
+    ns1:phone "(708)694-0939x380"^^xsd:string .
+
+<http://example.org/kg/Person_rhodesmark%40decker-reynolds.biz> a ns1:Person ;
+    ns1:email "rhodesmark@decker-reynolds.biz"^^xsd:string ;
+    ns1:firstName "Leslie"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1404089661> ;
+    ns1:lastName "Kelly"^^xsd:string ;
+    ns1:phone "+1-291-630-3023x13721"^^xsd:string .
+
+<http://example.org/kg/Person_richard07%40yahoo.com> a ns1:Person ;
+    ns1:email "richard07@yahoo.com"^^xsd:string ;
+    ns1:firstName "John"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1405499846> ;
+    ns1:lastName "Osborn"^^xsd:string ;
+    ns1:phone "864.890.0371x3408"^^xsd:string .
+
+<http://example.org/kg/Person_richard91%40peterson.com> a ns1:Person ;
+    ns1:email "richard91@peterson.com"^^xsd:string ;
+    ns1:firstName "Danny"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1409475689>,
+        <http://example.org/kg/Appointment_1409475708> ;
+    ns1:lastName "Williams"^^xsd:string ;
+    ns1:phone "+1-676-292-6302x1374"^^xsd:string .
+
+<http://example.org/kg/Person_rjohnson%40hotmail.com> a ns1:Person ;
+    ns1:email "rjohnson@hotmail.com"^^xsd:string ;
+    ns1:firstName "Adam"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1407286023> ;
+    ns1:lastName "Taylor"^^xsd:string ;
+    ns1:phone "796-787-5640x62765"^^xsd:string .
+
+<http://example.org/kg/Person_sarahgarza%40smith.com> a ns1:Person ;
+    ns1:email "sarahgarza@smith.com"^^xsd:string ;
+    ns1:firstName "Stacy"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1409121009> ;
+    ns1:lastName "Briggs"^^xsd:string ;
+    ns1:phone "+1-439-574-2888x1616"^^xsd:string .
+
+<http://example.org/kg/Person_schmidtjay%40gonzalez.com> a ns1:Person ;
+    ns1:email "schmidtjay@gonzalez.com"^^xsd:string ;
+    ns1:firstName "Laura"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1410590797> ;
+    ns1:lastName "Lewis"^^xsd:string ;
+    ns1:phone "+1-220-551-7739x20397"^^xsd:string .
+
+<http://example.org/kg/Person_scottbeard%40johnson.net> a ns1:Person ;
+    ns1:email "scottbeard@johnson.net"^^xsd:string ;
+    ns1:firstName "Tiffany"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1409766714> ;
+    ns1:lastName "Smith"^^xsd:string ;
+    ns1:phone "+1-826-667-8162x743"^^xsd:string .
+
+<http://example.org/kg/Person_shafferashley%40yahoo.com> a ns1:Person ;
+    ns1:email "shafferashley@yahoo.com"^^xsd:string ;
+    ns1:firstName "Justin"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1409450650>,
+        <http://example.org/kg/Appointment_1409450652> ;
+    ns1:lastName "Mccoy"^^xsd:string ;
+    ns1:phone "(437)449-5511x8631"^^xsd:string .
+
+<http://example.org/kg/Person_shawlauren%40gmail.com> a ns1:Person ;
+    ns1:email "shawlauren@gmail.com"^^xsd:string ;
+    ns1:firstName "Christina"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1387542009> ;
+    ns1:lastName "Martinez"^^xsd:string ;
+    ns1:phone "001-281-993-5009x832"^^xsd:string .
+
+<http://example.org/kg/Person_spencerbrenda%40dixon-martin.com> a ns1:Person ;
+    ns1:email "spencerbrenda@dixon-martin.com"^^xsd:string ;
+    ns1:firstName "Jill"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1393152827> ;
+    ns1:lastName "Morales"^^xsd:string ;
+    ns1:phone "082-261-5003"^^xsd:string .
+
+<http://example.org/kg/Person_stephaniegillespie%40yahoo.com> a ns1:Person ;
+    ns1:email "stephaniegillespie@yahoo.com"^^xsd:string ;
+    ns1:firstName "James"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1417706402> ;
+    ns1:lastName "Cisneros"^^xsd:string ;
+    ns1:phone "018.020.8572"^^xsd:string .
+
+<http://example.org/kg/Person_tgonzalez%40hotmail.com> a ns1:Person ;
+    ns1:email "tgonzalez@hotmail.com"^^xsd:string ;
+    ns1:firstName "Anne"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1405086909> ;
+    ns1:lastName "Long"^^xsd:string ;
+    ns1:phone "7812495609"^^xsd:string .
+
+<http://example.org/kg/Person_tylersimmons%40jackson.com> a ns1:Person ;
+    ns1:email "tylersimmons@jackson.com"^^xsd:string ;
+    ns1:firstName "Dawn"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1410526733>,
+        <http://example.org/kg/Appointment_1410526735> ;
+    ns1:lastName "Kelley"^^xsd:string ;
+    ns1:phone "756-380-3102x751"^^xsd:string .
+
+<http://example.org/kg/Person_warrenaaron%40wall.net> a ns1:Person ;
+    ns1:email "warrenaaron@wall.net"^^xsd:string ;
+    ns1:firstName "Clayton"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1417373543> ;
+    ns1:lastName "Duran"^^xsd:string ;
+    ns1:phone "8668201732"^^xsd:string .
+
+<http://example.org/kg/Person_ymorales%40hotmail.com> a ns1:Person ;
+    ns1:email "ymorales@hotmail.com"^^xsd:string ;
+    ns1:firstName "Jerry"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1386519498> ;
+    ns1:lastName "Garza"^^xsd:string ;
+    ns1:phone "012-521-4881x6348"^^xsd:string .
+
+<http://example.org/kg/Person_youngchristopher%40little.net> a ns1:Person ;
+    ns1:email "youngchristopher@little.net"^^xsd:string ;
+    ns1:firstName "Denise"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1397626427>,
+        <http://example.org/kg/Appointment_1397627703> ;
+    ns1:lastName "Reed"^^xsd:string ;
+    ns1:phone "490.896.3956"^^xsd:string .
+
+<http://example.org/kg/Person_zrobertson%40gmail.com> a ns1:Person ;
+    ns1:email "zrobertson@gmail.com"^^xsd:string ;
+    ns1:firstName "Heather"^^xsd:string ;
+    ns1:hasAppointment <http://example.org/kg/Appointment_1421274053>,
+        <http://example.org/kg/Appointment_1421275317> ;
+    ns1:lastName "Brown"^^xsd:string ;
+    ns1:phone "+1-625-369-8226x409"^^xsd:string .
+
+<http://example.org/kg/Appointment_1348240786> a ns1:Appointment ;
+    ns1:appointmentID "1348240786"^^xsd:string ;
+    ns1:endTime "February 8, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Nordic%20Skiing%20-%20Authentic%20Norwegian%20Experience> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1348240786> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "12/10/2024"^^xsd:string ;
+    ns1:startTime "February 8, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1386519498> a ns1:Appointment ;
+    ns1:appointmentID "1386519498"^^xsd:string ;
+    ns1:endTime "February 1, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%201%20set%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1386519498> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "20/12/2024"^^xsd:string ;
+    ns1:startTime "February 1, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1387542009> a ns1:Appointment ;
+    ns1:appointmentID "1387542009"^^xsd:string ;
+    ns1:endTime "February 8, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private%20%2C%202%20sets%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1387542009> ;
+    ns1:rescheduledDate "30/12/2024"^^xsd:string ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "22/12/2024"^^xsd:string ;
+    ns1:startTime "February 8, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1387765401> a ns1:Appointment ;
+    ns1:appointmentID "1387765401"^^xsd:string ;
+    ns1:endTime "February 2, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Skating> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1387765401> ;
+    ns1:rescheduledDate "15/01/2025"^^xsd:string ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "23/12/2024"^^xsd:string ;
+    ns1:startTime "February 2, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1393152827> a ns1:Appointment ;
+    ns1:appointmentID "1393152827"^^xsd:string ;
+    ns1:endTime "February 15, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Nordic%20Skiing%20-%20Authentic%20Norwegian%20Experience%20%2B%20%2B3%20extra%20person%20for%20Nordic%20skiing%20experience%2C%201%20set%20of%20equipment%2C%203%20sets%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1393152827> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "04/01/2025"^^xsd:string ;
+    ns1:startTime "February 15, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1397626427> a ns1:Appointment ;
+    ns1:appointmentID "1397626427"^^xsd:string ;
+    ns1:endTime "February 8, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1397626427> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "11/01/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1397627703> a ns1:Appointment ;
+    ns1:appointmentID "1397627703"^^xsd:string ;
+    ns1:endTime "February 9, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1397627703> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "11/01/2025"^^xsd:string ;
+    ns1:startTime "February 9, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1401622687> a ns1:Appointment ;
+    ns1:appointmentID "1401622687"^^xsd:string ;
+    ns1:endTime "February 1, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1401622687> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "17/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1401622688> a ns1:Appointment ;
+    ns1:appointmentID "1401622688"^^xsd:string ;
+    ns1:endTime "February 1, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1401622688> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "17/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1402580868> a ns1:Appointment ;
+    ns1:appointmentID "1402580868"^^xsd:string ;
+    ns1:endTime "February 13, 2025 19:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1402580868> ;
+    ns1:rescheduledDate "27/01/2025"^^xsd:string ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "19/01/2025"^^xsd:string ;
+    ns1:startTime "February 13, 2025 18:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1402960225> a ns1:Appointment ;
+    ns1:appointmentID "1402960225"^^xsd:string ;
+    ns1:endTime "February 2, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1402960225> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "20/01/2025"^^xsd:string ;
+    ns1:startTime "February 2, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1402960229> a ns1:Appointment ;
+    ns1:appointmentID "1402960229"^^xsd:string ;
+    ns1:endTime "February 2, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1402960229> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "20/01/2025"^^xsd:string ;
+    ns1:startTime "February 2, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1403767536> a ns1:Appointment ;
+    ns1:appointmentID "1403767536"^^xsd:string ;
+    ns1:endTime "February 8, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1403767536> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "21/01/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1403822684> a ns1:Appointment ;
+    ns1:appointmentID "1403822684"^^xsd:string ;
+    ns1:endTime "February 8, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1403822684> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "21/01/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1403822693> a ns1:Appointment ;
+    ns1:appointmentID "1403822693"^^xsd:string ;
+    ns1:endTime "February 8, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1403822693> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "21/01/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1404089661> a ns1:Appointment ;
+    ns1:appointmentID "1404089661"^^xsd:string ;
+    ns1:endTime "February 1, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1404089661> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "22/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1404817630> a ns1:Appointment ;
+    ns1:appointmentID "1404817630"^^xsd:string ;
+    ns1:endTime "February 1, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%201%20set%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1404817630> ;
+    ns1:scheduledBy "oslo.goski@gmail.com"^^xsd:string ;
+    ns1:scheduledDate "23/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1405086909> a ns1:Appointment ;
+    ns1:appointmentID "1405086909"^^xsd:string ;
+    ns1:endTime "February 1, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1405086909> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "23/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1405459243> a ns1:Appointment ;
+    ns1:appointmentID "1405459243"^^xsd:string ;
+    ns1:endTime "February 2, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1405459243> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "24/01/2025"^^xsd:string ;
+    ns1:startTime "February 2, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1405459244> a ns1:Appointment ;
+    ns1:appointmentID "1405459244"^^xsd:string ;
+    ns1:endTime "February 2, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1405459244> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "24/01/2025"^^xsd:string ;
+    ns1:startTime "February 2, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1405499846> a ns1:Appointment ;
+    ns1:appointmentID "1405499846"^^xsd:string ;
+    ns1:endTime "February 1, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1405499846> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "24/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1405544425> a ns1:Appointment ;
+    ns1:appointmentID "1405544425"^^xsd:string ;
+    ns1:endTime "February 2, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Skating> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1405544425> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "24/01/2025"^^xsd:string ;
+    ns1:startTime "February 2, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1405791444> a ns1:Appointment ;
+    ns1:appointmentID "1405791444"^^xsd:string ;
+    ns1:endTime "February 1, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1405791444> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "24/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1405791446> a ns1:Appointment ;
+    ns1:appointmentID "1405791446"^^xsd:string ;
+    ns1:endTime "February 1, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1405791446> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "24/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1406463792> a ns1:Appointment ;
+    ns1:appointmentID "1406463792"^^xsd:string ;
+    ns1:endTime "February 9, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%201%20set%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1406463792> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "26/01/2025"^^xsd:string ;
+    ns1:startTime "February 9, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1406472449> a ns1:Appointment ;
+    ns1:appointmentID "1406472449"^^xsd:string ;
+    ns1:endTime "February 16, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Skating> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1406472449> ;
+    ns1:rescheduledDate "26/01/2025"^^xsd:string ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "26/01/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1406472450> a ns1:Appointment ;
+    ns1:appointmentID "1406472450"^^xsd:string ;
+    ns1:endTime "February 16, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Skating> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1406472450> ;
+    ns1:rescheduledDate "26/01/2025"^^xsd:string ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "26/01/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1406486894> a ns1:Appointment ;
+    ns1:appointmentID "1406486894"^^xsd:string ;
+    ns1:endTime "February 1, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1406486894> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "26/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1406501958> a ns1:Appointment ;
+    ns1:appointmentID "1406501958"^^xsd:string ;
+    ns1:endTime "February 8, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1406501958> ;
+    ns1:rescheduledDate "31/01/2025"^^xsd:string ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "26/01/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1406914023> a ns1:Appointment ;
+    ns1:appointmentID "1406914023"^^xsd:string ;
+    ns1:endTime "February 1, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1406914023> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "27/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1407286023> a ns1:Appointment ;
+    ns1:appointmentID "1407286023"^^xsd:string ;
+    ns1:endTime "February 1, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1407286023> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "27/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1407324565> a ns1:Appointment ;
+    ns1:appointmentID "1407324565"^^xsd:string ;
+    ns1:endTime "February 1, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1407324565> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "27/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1407627989> a ns1:Appointment ;
+    ns1:appointmentID "1407627989"^^xsd:string ;
+    ns1:endTime "February 9, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1407627989> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "28/01/2025"^^xsd:string ;
+    ns1:startTime "February 9, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1409121009> a ns1:Appointment ;
+    ns1:appointmentID "1409121009"^^xsd:string ;
+    ns1:endTime "February 1, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1409121009> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "30/01/2025"^^xsd:string ;
+    ns1:startTime "February 1, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1409450650> a ns1:Appointment ;
+    ns1:appointmentID "1409450650"^^xsd:string ;
+    ns1:endTime "February 2, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1409450650> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "30/01/2025"^^xsd:string ;
+    ns1:startTime "February 2, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1409450652> a ns1:Appointment ;
+    ns1:appointmentID "1409450652"^^xsd:string ;
+    ns1:endTime "February 2, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1409450652> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "30/01/2025"^^xsd:string ;
+    ns1:startTime "February 2, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1409475689> a ns1:Appointment ;
+    ns1:appointmentID "1409475689"^^xsd:string ;
+    ns1:endTime "February 9, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1409475689> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "30/01/2025"^^xsd:string ;
+    ns1:startTime "February 9, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1409475708> a ns1:Appointment ;
+    ns1:appointmentID "1409475708"^^xsd:string ;
+    ns1:endTime "February 9, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1409475708> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "30/01/2025"^^xsd:string ;
+    ns1:startTime "February 9, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1409766714> a ns1:Appointment ;
+    ns1:appointmentID "1409766714"^^xsd:string ;
+    ns1:endTime "February 2, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%201%20set%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1409766714> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "31/01/2025"^^xsd:string ;
+    ns1:startTime "February 2, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1410526733> a ns1:Appointment ;
+    ns1:appointmentID "1410526733"^^xsd:string ;
+    ns1:endTime "February 8, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1410526733> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "01/02/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1410526735> a ns1:Appointment ;
+    ns1:appointmentID "1410526735"^^xsd:string ;
+    ns1:endTime "February 8, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1410526735> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "01/02/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1410590797> a ns1:Appointment ;
+    ns1:appointmentID "1410590797"^^xsd:string ;
+    ns1:endTime "February 5, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private%20%2C%202%20sets%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1410590797> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "01/02/2025"^^xsd:string ;
+    ns1:startTime "February 5, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1410646753> a ns1:Appointment ;
+    ns1:appointmentID "1410646753"^^xsd:string ;
+    ns1:endTime "February 12, 2025 18:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private%20%2C%202%20sets%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1410646753> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "01/02/2025"^^xsd:string ;
+    ns1:startTime "February 12, 2025 17:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1410967953> a ns1:Appointment ;
+    ns1:appointmentID "1410967953"^^xsd:string ;
+    ns1:endTime "February 23, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1410967953> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "02/02/2025"^^xsd:string ;
+    ns1:startTime "February 23, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1410967954> a ns1:Appointment ;
+    ns1:appointmentID "1410967954"^^xsd:string ;
+    ns1:endTime "February 23, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1410967954> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "02/02/2025"^^xsd:string ;
+    ns1:startTime "February 23, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1410968268> a ns1:Appointment ;
+    ns1:appointmentID "1410968268"^^xsd:string ;
+    ns1:endTime "February 9, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1410968268> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "02/02/2025"^^xsd:string ;
+    ns1:startTime "February 9, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1410968269> a ns1:Appointment ;
+    ns1:appointmentID "1410968269"^^xsd:string ;
+    ns1:endTime "February 9, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1410968269> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "02/02/2025"^^xsd:string ;
+    ns1:startTime "February 9, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1411842671> a ns1:Appointment ;
+    ns1:appointmentID "1411842671"^^xsd:string ;
+    ns1:endTime "February 8, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1411842671> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "03/02/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1413051987> a ns1:Appointment ;
+    ns1:appointmentID "1413051987"^^xsd:string ;
+    ns1:endTime "February 7, 2025 19:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1413051987> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "05/02/2025"^^xsd:string ;
+    ns1:startTime "February 7, 2025 18:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1413817587> a ns1:Appointment ;
+    ns1:appointmentID "1413817587"^^xsd:string ;
+    ns1:endTime "February 8, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1413817587> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "06/02/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1413830084> a ns1:Appointment ;
+    ns1:appointmentID "1413830084"^^xsd:string ;
+    ns1:endTime "February 8, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1413830084> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "06/02/2025"^^xsd:string ;
+    ns1:startTime "February 8, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1414615200> a ns1:Appointment ;
+    ns1:appointmentID "1414615200"^^xsd:string ;
+    ns1:endTime "February 16, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1414615200> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "07/02/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1414772368> a ns1:Appointment ;
+    ns1:appointmentID "1414772368"^^xsd:string ;
+    ns1:endTime "February 22, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private%20%2C%202%20sets%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1414772368> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "07/02/2025"^^xsd:string ;
+    ns1:startTime "February 22, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1415070864> a ns1:Appointment ;
+    ns1:appointmentID "1415070864"^^xsd:string ;
+    ns1:endTime "February 15, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1415070864> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "08/02/2025"^^xsd:string ;
+    ns1:startTime "February 15, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1415537175> a ns1:Appointment ;
+    ns1:appointmentID "1415537175"^^xsd:string ;
+    ns1:endTime "February 23, 2025 15:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1415537175> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "09/02/2025"^^xsd:string ;
+    ns1:startTime "February 23, 2025 14:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1415712223> a ns1:Appointment ;
+    ns1:appointmentID "1415712223"^^xsd:string ;
+    ns1:endTime "February 15, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1415712223> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "09/02/2025"^^xsd:string ;
+    ns1:startTime "February 15, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1416000146> a ns1:Appointment ;
+    ns1:appointmentID "1416000146"^^xsd:string ;
+    ns1:endTime "February 15, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1416000146> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "10/02/2025"^^xsd:string ;
+    ns1:startTime "February 15, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1416000148> a ns1:Appointment ;
+    ns1:appointmentID "1416000148"^^xsd:string ;
+    ns1:endTime "February 15, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1416000148> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "10/02/2025"^^xsd:string ;
+    ns1:startTime "February 15, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1416312756> a ns1:Appointment ;
+    ns1:appointmentID "1416312756"^^xsd:string ;
+    ns1:endTime "February 16, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1416312756> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "10/02/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1416692907> a ns1:Appointment ;
+    ns1:appointmentID "1416692907"^^xsd:string ;
+    ns1:endTime "February 15, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1416692907> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "11/02/2025"^^xsd:string ;
+    ns1:startTime "February 15, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1417373543> a ns1:Appointment ;
+    ns1:appointmentID "1417373543"^^xsd:string ;
+    ns1:endTime "February 15, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1417373543> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "12/02/2025"^^xsd:string ;
+    ns1:startTime "February 15, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1417375178> a ns1:Appointment ;
+    ns1:appointmentID "1417375178"^^xsd:string ;
+    ns1:endTime "February 22, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1417375178> ;
+    ns1:rescheduledDate "18/02/2025"^^xsd:string ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "12/02/2025"^^xsd:string ;
+    ns1:startTime "February 22, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1417706402> a ns1:Appointment ;
+    ns1:appointmentID "1417706402"^^xsd:string ;
+    ns1:endTime "February 16, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1417706402> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "12/02/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1418129980> a ns1:Appointment ;
+    ns1:appointmentID "1418129980"^^xsd:string ;
+    ns1:endTime "February 16, 2025 11:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private%20%2C%202%20sets%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1418129980> ;
+    ns1:scheduledBy "oslo.goski@gmail.com"^^xsd:string ;
+    ns1:scheduledDate "13/02/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 10:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1418179589> a ns1:Appointment ;
+    ns1:appointmentID "1418179589"^^xsd:string ;
+    ns1:endTime "February 22, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1418179589> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "13/02/2025"^^xsd:string ;
+    ns1:startTime "February 22, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1418179592> a ns1:Appointment ;
+    ns1:appointmentID "1418179592"^^xsd:string ;
+    ns1:endTime "February 22, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1418179592> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "13/02/2025"^^xsd:string ;
+    ns1:startTime "February 22, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1418692512> a ns1:Appointment ;
+    ns1:appointmentID "1418692512"^^xsd:string ;
+    ns1:endTime "February 19, 2025 18:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private%20%2C%202%20sets%20of%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1418692512> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "14/02/2025"^^xsd:string ;
+    ns1:startTime "February 19, 2025 17:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1418884268> a ns1:Appointment ;
+    ns1:appointmentID "1418884268"^^xsd:string ;
+    ns1:endTime "February 16, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1418884268> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "14/02/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1418884269> a ns1:Appointment ;
+    ns1:appointmentID "1418884269"^^xsd:string ;
+    ns1:endTime "February 16, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1418884269> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "14/02/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1419093483> a ns1:Appointment ;
+    ns1:appointmentID "1419093483"^^xsd:string ;
+    ns1:endTime "February 16, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1419093483> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "15/02/2025"^^xsd:string ;
+    ns1:startTime "February 16, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1420993749> a ns1:Appointment ;
+    ns1:appointmentID "1420993749"^^xsd:string ;
+    ns1:endTime "February 22, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1420993749> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "18/02/2025"^^xsd:string ;
+    ns1:startTime "February 22, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1421219349> a ns1:Appointment ;
+    ns1:appointmentID "1421219349"^^xsd:string ;
+    ns1:endTime "February 23, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1421219349> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "19/02/2025"^^xsd:string ;
+    ns1:startTime "February 23, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1421250532> a ns1:Appointment ;
+    ns1:appointmentID "1421250532"^^xsd:string ;
+    ns1:endTime "February 20, 2025 14:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1421250532> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "19/02/2025"^^xsd:string ;
+    ns1:startTime "February 20, 2025 13:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1421274053> a ns1:Appointment ;
+    ns1:appointmentID "1421274053"^^xsd:string ;
+    ns1:endTime "February 20, 2025 18:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1421274053> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "19/02/2025"^^xsd:string ;
+    ns1:startTime "February 20, 2025 17:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1421275317> a ns1:Appointment ;
+    ns1:appointmentID "1421275317"^^xsd:string ;
+    ns1:endTime "February 21, 2025 19:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Private%20ski%20lesson> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1421275317> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "19/02/2025"^^xsd:string ;
+    ns1:startTime "February 21, 2025 18:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1421290137> a ns1:Appointment ;
+    ns1:appointmentID "1421290137"^^xsd:string ;
+    ns1:endTime "February 23, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1421290137> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "19/02/2025"^^xsd:string ;
+    ns1:startTime "February 23, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1422684728> a ns1:Appointment ;
+    ns1:appointmentID "1422684728"^^xsd:string ;
+    ns1:endTime "February 23, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1422684728> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "21/02/2025"^^xsd:string ;
+    ns1:startTime "February 23, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1422995490> a ns1:Appointment ;
+    ns1:appointmentID "1422995490"^^xsd:string ;
+    ns1:endTime "February 22, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1422995490> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "21/02/2025"^^xsd:string ;
+    ns1:startTime "February 22, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/Appointment_1423209559> a ns1:Appointment ;
+    ns1:appointmentID "1423209559"^^xsd:string ;
+    ns1:endTime "February 23, 2025 13:30"^^xsd:string ;
+    ns1:hasClassType <http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> ;
+    ns1:hasPayment <http://example.org/kg/Payment_1423209559> ;
+    ns1:scheduledBy "a client"^^xsd:string ;
+    ns1:scheduledDate "22/02/2025"^^xsd:string ;
+    ns1:startTime "February 23, 2025 12:00"^^xsd:string .
+
+<http://example.org/kg/ClassType_Nordic%20Skiing%20-%20Authentic%20Norwegian%20Experience> a ns1:ClassType ;
+    ns1:className "Nordic Skiing - Authentic Norwegian Experience"^^xsd:string .
+
+<http://example.org/kg/ClassType_Nordic%20Skiing%20-%20Authentic%20Norwegian%20Experience%20%2B%20%2B3%20extra%20person%20for%20Nordic%20skiing%20experience%2C%201%20set%20of%20equipment%2C%203%20sets%20of%20equipment> a ns1:ClassType ;
+    ns1:className "Nordic Skiing - Authentic Norwegian Experience + +3 extra person for Nordic skiing experience, 1 set of equipment, 3 sets of equipment"^^xsd:string .
+
+<http://example.org/kg/Payment_1348240786> a ns1:Payment ;
+    ns1:amountPaidOnline "1499.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1499.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1386519498> a ns1:Payment ;
+    ns1:amountPaidOnline "1826.65"^^xsd:string ;
+    ns1:certificateCode "LUKASISBEST15"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1826.65"^^xsd:string .
+
+<http://example.org/kg/Payment_1387542009> a ns1:Payment ;
+    ns1:amountPaidOnline "3498.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "3498.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1387765401> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1393152827> a ns1:Payment ;
+    ns1:amountPaidOnline "6396.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "6396.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1397626427> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1397627703> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1401622687> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1401622688> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1402580868> a ns1:Payment ;
+    ns1:amountPaidOnline "2700.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "2700.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1402960225> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1402960229> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1403767536> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1403822684> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1403822693> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1404089661> a ns1:Payment ;
+    ns1:amountPaidOnline "1750.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1750.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1404817630> a ns1:Payment ;
+    ns1:amountPaidOnline "1934.10"^^xsd:string ;
+    ns1:certificateCode "ITSMEAGAIN"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1934.10"^^xsd:string .
+
+<http://example.org/kg/Payment_1405086909> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1405459243> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1405459244> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1405499846> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1405544425> a ns1:Payment ;
+    ns1:amountPaidOnline "807.50"^^xsd:string ;
+    ns1:certificateCode "NORDEA15"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "807.50"^^xsd:string .
+
+<http://example.org/kg/Payment_1405791444> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1405791446> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1406463792> a ns1:Payment ;
+    ns1:amountPaidOnline "2149.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "2149.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1406472449> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1406472450> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1406486894> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1406501958> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1406914023> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1407286023> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1407324565> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1407627989> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1409121009> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1409450650> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1409450652> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1409475689> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1409475708> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1409766714> a ns1:Payment ;
+    ns1:amountPaidOnline "2149.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "2149.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1410526733> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1410526735> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1410590797> a ns1:Payment ;
+    ns1:amountPaidOnline "3498.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "3498.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1410646753> a ns1:Payment ;
+    ns1:amountPaidOnline "3498.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "3498.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1410967953> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1410967954> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1410968268> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1410968269> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1411842671> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1413051987> a ns1:Payment ;
+    ns1:amountPaidOnline "2700.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "2700.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1413817587> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1413830084> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1414615200> a ns1:Payment ;
+    ns1:amountPaidOnline "1750.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1750.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1414772368> a ns1:Payment ;
+    ns1:amountPaidOnline "3498.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "3498.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1415070864> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1415537175> a ns1:Payment ;
+    ns1:amountPaidOnline "1750.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1750.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1415712223> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1416000146> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1416000148> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1416312756> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1416692907> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1417373543> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1417375178> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1417706402> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1418129980> a ns1:Payment ;
+    ns1:amountPaidOnline "0.00"^^xsd:string ;
+    ns1:isPaid "no"^^xsd:string ;
+    ns1:price "3498.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1418179589> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1418179592> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1418692512> a ns1:Payment ;
+    ns1:amountPaidOnline "3498.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "3498.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1418884268> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1418884269> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1419093483> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1420993749> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1421219349> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1421250532> a ns1:Payment ;
+    ns1:amountPaidOnline "1750.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1750.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1421274053> a ns1:Payment ;
+    ns1:amountPaidOnline "1750.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1750.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1421275317> a ns1:Payment ;
+    ns1:amountPaidOnline "1750.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1750.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1421290137> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1422684728> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1422995490> a ns1:Payment ;
+    ns1:amountPaidOnline "1349.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "1349.00"^^xsd:string .
+
+<http://example.org/kg/Payment_1423209559> a ns1:Payment ;
+    ns1:amountPaidOnline "950.00"^^xsd:string ;
+    ns1:isPaid "yes"^^xsd:string ;
+    ns1:price "950.00"^^xsd:string .
+
+<http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private> a ns1:ClassType ;
+    ns1:className "Private ski lesson + +1 extra person on Private"^^xsd:string .
+
+<http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Skating> a ns1:ClassType ;
+    ns1:className "Beginner Group Ski Class - Skating"^^xsd:string .
+
+<http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%201%20set%20of%20equipment> a ns1:ClassType ;
+    ns1:className "Private ski lesson + 1 set of equipment"^^xsd:string .
+
+<http://example.org/kg/ClassType_Private%20ski%20lesson> a ns1:ClassType ;
+    ns1:className "Private ski lesson"^^xsd:string .
+
+<http://example.org/kg/ClassType_Private%20ski%20lesson%20%2B%20%2B1%20extra%20person%20on%20Private%20%2C%202%20sets%20of%20equipment> a ns1:ClassType ;
+    ns1:className "Private ski lesson + +1 extra person on Private , 2 sets of equipment"^^xsd:string .
+
+<http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic> a ns1:ClassType ;
+    ns1:className "Beginner Group Ski Class - Classic"^^xsd:string .
+
+<http://example.org/kg/ClassType_Beginner%20Group%20Ski%20Class%20-%20Classic%20%2B%20Skiing%20equipment> a ns1:ClassType ;
+    ns1:className "Beginner Group Ski Class - Classic + Skiing equipment"^^xsd:string .
+

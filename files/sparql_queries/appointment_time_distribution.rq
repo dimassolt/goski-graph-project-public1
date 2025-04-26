@@ -1,0 +1,14 @@
+PREFIX ski: <http://example.org/ski#>
+
+SELECT ?startTime
+WHERE {
+  ?appointment a ski:Appointment ;
+               ski:startTime ?startTime ;
+               ski:hasClassType ?classType .
+  ?classType ski:className ?classTypeLabel .
+
+  FILTER (
+    CONTAINS(LCASE(STR(?classTypeLabel)), "private") ||
+    CONTAINS(LCASE(STR(?classTypeLabel)), "nordic")
+  )
+}

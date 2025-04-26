@@ -1,0 +1,214 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ski: <http://example.org/ski#> .
+
+########################################
+# Person Mapping
+########################################
+
+<#PersonMapping>
+  rml:logicalSource [
+    rml:source "datasources/schedule_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://example.org/kg/Person_{Email}" ;
+    rr:class ski:Person
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:firstName ;
+    rr:objectMap [ rml:reference "First Name" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:lastName ;
+    rr:objectMap [ rml:reference "Last Name" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:phone ;
+    rr:objectMap [ rml:reference "Phone" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:email ;
+    rr:objectMap [ rml:reference "Email" ; rr:datatype xsd:string ]
+  ].
+
+########################################
+# Appointment Mapping
+########################################
+
+<#AppointmentMapping>
+  rml:logicalSource [
+    rml:source "datasources/schedule_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://example.org/kg/Appointment_{Appointment ID}" ;
+    rr:class ski:Appointment
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:startTime ;
+    rr:objectMap [ rml:reference "Start Time" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:endTime ;
+    rr:objectMap [ rml:reference "End Time" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:scheduledDate ;
+    rr:objectMap [ rml:reference "Date Scheduled" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:rescheduledDate ;
+    rr:objectMap [ rml:reference "Date Rescheduled" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:scheduledBy ;
+    rr:objectMap [ rml:reference "Scheduled By" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:label ;
+    rr:objectMap [ rml:reference "Label" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:appointmentID ;
+    rr:objectMap [ rml:reference "Appointment ID" ; rr:datatype xsd:string ]
+  ].
+
+########################################
+# Link Person to Appointment
+########################################
+
+<#PersonAppointmentLink>
+  rml:logicalSource [
+    rml:source "datasources/schedule_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://example.org/kg/Person_{Email}" ;
+    rr:termType rr:IRI
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:hasAppointment ;
+    rr:objectMap [
+      rr:template "http://example.org/kg/Appointment_{Appointment ID}" ;
+      rr:termType rr:IRI
+    ]
+  ].
+
+########################################
+# Class Type Mapping
+########################################
+
+<#ClassTypeMapping>
+  rml:logicalSource [
+    rml:source "datasources/schedule_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://example.org/kg/ClassType_{Type}" ;
+    rr:class ski:ClassType
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:className ;
+    rr:objectMap [ rml:reference "Type" ; rr:datatype xsd:string ]
+  ].
+
+########################################
+# Link Appointment to Class Type
+########################################
+
+<#AppointmentToClassType>
+  rml:logicalSource [
+    rml:source "datasources/schedule_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://example.org/kg/Appointment_{Appointment ID}" ;
+    rr:termType rr:IRI
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:hasClassType ;
+    rr:objectMap [
+      rr:template "http://example.org/kg/ClassType_{Type}" ;
+      rr:termType rr:IRI
+    ]
+  ].
+
+########################################
+# Payment Mapping
+########################################
+
+<#PaymentMapping>
+  rml:logicalSource [
+    rml:source "datasources/schedule_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://example.org/kg/Payment_{Appointment ID}" ;
+    rr:class ski:Payment
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:price ;
+    rr:objectMap [ rml:reference "Appointment Price" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:isPaid ;
+    rr:objectMap [ rml:reference "Paid?" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:amountPaidOnline ;
+    rr:objectMap [ rml:reference "Amount Paid Online" ; rr:datatype xsd:string ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:certificateCode ;
+    rr:objectMap [ rml:reference "Certificate Code" ; rr:datatype xsd:string ]
+  ].
+
+########################################
+# Link Appointment to Payment
+########################################
+
+<#AppointmentToPayment>
+  rml:logicalSource [
+    rml:source "datasources/schedule_cleaned.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://example.org/kg/Appointment_{Appointment ID}" ;
+    rr:termType rr:IRI
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ski:hasPayment ;
+    rr:objectMap [
+      rr:template "http://example.org/kg/Payment_{Appointment ID}" ;
+      rr:termType rr:IRI
+    ]
+  ].

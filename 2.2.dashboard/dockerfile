@@ -1,0 +1,20 @@
+FROM continuumio/miniconda3
+
+# Set environment
+ENV CONDA_ENV_NAME goski_dashboard_env
+ENV PATH /opt/conda/envs/${CONDA_ENV_NAME}/bin:$PATH
+
+# Copy and install environment
+COPY environment.yml /tmp/environment.yml
+RUN conda env create -f /tmp/environment.yml
+
+# Activate environment and set entrypoint
+SHELL ["conda", "run", "-n", "goski_dashboard_env", "/bin/bash", "-c"]
+
+# Set working directory
+WORKDIR /app
+COPY . /app
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "dashboard.py"]
