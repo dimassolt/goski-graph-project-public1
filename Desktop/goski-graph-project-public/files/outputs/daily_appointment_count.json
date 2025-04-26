@@ -1,0 +1,177 @@
+{
+  "head": {
+    "vars": [
+      "day",
+      "count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 1, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 12, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 13, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 15, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 16, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "9"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 19, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 2, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "9"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 20, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 21, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 22, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "6"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 23, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 5, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 7, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 8, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "12"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 9, 2025"
+        },
+        "count": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        }
+      }
+    ]
+  }
+}

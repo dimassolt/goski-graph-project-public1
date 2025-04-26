@@ -1,0 +1,177 @@
+{
+  "head": {
+    "vars": [
+      "day",
+      "totalPaid"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 1, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "19152.75"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 12, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3498.00"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 13, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "2700.00"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 15, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "13692.0"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 16, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "9996.0"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 19, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3498.00"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 2, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "10404.5"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 20, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3500.0"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 21, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1750.00"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 22, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "9445.0"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 23, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "9046.0"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 5, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3498.00"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 7, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "2700.00"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 8, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "17290.0"
+        }
+      },
+      {
+        "day": {
+          "type": "literal",
+          "value": "February 9, 2025"
+        },
+        "totalPaid": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "9844.0"
+        }
+      }
+    ]
+  }
+}

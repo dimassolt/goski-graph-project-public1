@@ -1,0 +1,20 @@
+PREFIX ski: <http://example.org/ski#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?normalizedLabel ?startTime (xsd:decimal(?amountPaidOnline) AS ?amount)
+WHERE {
+  ?appointment a ski:Appointment ;
+               ski:startTime ?startTime ;
+               ski:hasClassType ?classType ;
+               ski:hasPayment ?payment .
+  ?classType ski:className ?classTypeLabel .
+  ?payment ski:amountPaidOnline ?amountPaidOnline .
+
+  BIND(
+    IF(CONTAINS(LCASE(STR(?classTypeLabel)), "classic"), "Classic Group",
+    IF(CONTAINS(LCASE(STR(?classTypeLabel)), "skating"), "Skating Group",
+    IF(CONTAINS(LCASE(STR(?classTypeLabel)), "nordic"), "Nordic Experience",
+    IF(CONTAINS(LCASE(STR(?classTypeLabel)), "private"), "Private", "Other"))))
+    AS ?normalizedLabel
+  )
+}

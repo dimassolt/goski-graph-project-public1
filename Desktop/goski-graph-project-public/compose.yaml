@@ -1,0 +1,61 @@
+version: "3.9"
+
+services:
+  
+  mapping: 
+    build: 
+      context: ./1.1.${COMPONENT_1}/.
+      args:
+        - VERSION=${VERSION}
+        - COMPONENT_NAME=${COMPONENT_1}
+    environment:
+      - ONTOLOGY=${ONTOLOGY}
+      - OUTPUT_KG=${OUTPUT_KG}
+      - INPUT_MAPPING=${INPUT_MAPPING}
+    volumes:
+      - ./files/datasources:/opt/${COMPONENT_1}/datasources
+      - ./files/ontologies:/opt/${COMPONENT_1}/ontologies
+      - ./files/mappings:/opt/${COMPONENT_1}/mappings
+      - ./files/output:/opt/${COMPONENT_1}/output
+
+  fuseki:
+    image: d1egoprog/jena-fuseki
+    ports:
+      - "3030:3030"
+    volumes:
+      - ./files:/files/output
+    entrypoint: [ "java", "-Xmx2048m", "-Xms2048m", "-jar", "fuseki-server.jar", "--mem", "/dataset" ]
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3030/dataset"]
+      interval: 1h
+      timeout: 5s
+      retries: 15
+
+  # webvowl:
+  #   image: d1egoprog/webvowl
+  #   ports:
+  #     - "8080:8080"
+  #   restart: always
+
+  fuseki_client:
+    build: ./2.1.fuseki_client
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./files/outputs:/app/files/outputs
+      - ./files/sparql_queries:/app/files/sparql_queries
+      - ./files/output:/app/files/output 
+
+    depends_on:
+      - fuseki
+
+  dashboard:
+    build: ./2.2.dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./files/sparql_queries:/app/files/sparql_queries
+    depends_on:
+      fuseki_client:
+        condition: service_started
