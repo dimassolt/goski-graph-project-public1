@@ -35,18 +35,19 @@ and visualizes insights using a **secure Streamlit dashboard**.
 ---
 
 ## 📂 Project Structure
-GOSKI-GRAPH-PROJECT-PUBLIC 
-── 1.1.mapping/ # ETL scripts to map CSV to RDF 
-── 2.1.fuseki_client/ # Fuseki SPARQL client API 
-── 2.2.dashboard/ # Secure Streamlit dashboard  
-── files/ # Datasources, ontologies, SPARQL queries  
-    ── datasources/  
-    ── mappings/  
-    ── ontologies/  
-    ── sparql_queries/  
-    ── outputs/ # Query outputs 
-── compose.yaml # Docker Compose setup 
-── README.md
+
+GOSKI-GRAPH-PROJECT-PUBLIC/
+- 1.1.mapping/ — ETL scripts to map CSV to RDF
+- 2.1.fuseki_client/ — Fuseki SPARQL client API
+- 2.2.dashboard/ — Secure Streamlit dashboard
+- files/ — Datasources, ontologies, SPARQL queries
+  - datasources/ — Source CSV files
+  - mappings/ — RML and Turtle mapping files
+  - ontologies/ — OWL/Turtle ontology files
+  - sparql_queries/ — SPARQL query files
+  - outputs/ — Query outputs (JSON)
+- compose.yaml — Docker Compose setup
+- README.md — Project documentation
 
 ---
 
