@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+
+# System folders
+.idea/
+.vscode/
+.android/
+.gradle/
+.ipython/
+.jupyter/
+.matplotlib/
+.local/
+.cache/
+.config/
+.emulator_console_auth_token
+*.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Environments
+.env
+.venv/
+ENV/
+env/
+venv/
+
+# Other
+*.log
+*.sqlite
+*.db
+
+# Personal
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.tar.gz
+*.tgz
+*.bak
+
+
+# VSCode settings
+.settings/
+.vscode/
+
+# Docker
+docker-compose.override.yml
