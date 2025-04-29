@@ -1,0 +1,1198 @@
+{
+  "head": {
+    "vars": [
+      "normalizedLabel",
+      "startTime",
+      "amount"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1934.10"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 21, 2025 18:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1750.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 9, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 23, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Skating Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 15, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 15, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 23, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "2149.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 23, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 22, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 12, 2025 17:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3498.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 15, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 13, 2025 18:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "2700.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3498.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1826.65"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 5, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3498.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Nordic Experience"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 15, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "6396.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 22, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 22, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Skating Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "807.50"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Skating Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 9, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 7, 2025 18:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "2700.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 15, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 9, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Nordic Experience"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1499.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "0.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 22, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 23, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1750.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 22, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 2, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1750.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 15, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 23, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 9, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 9, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 23, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 8, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 20, 2025 13:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1750.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 20, 2025 17:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1750.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 19, 2025 17:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3498.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 15, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Skating Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 10:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 22, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "3498.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 1, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1750.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 23, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Private"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 9, 2025 14:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "2149.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 9, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "950.00"
+        }
+      },
+      {
+        "normalizedLabel": {
+          "type": "literal",
+          "value": "Classic Group"
+        },
+        "startTime": {
+          "type": "literal",
+          "value": "February 16, 2025 12:00"
+        },
+        "amount": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "1349.00"
+        }
+      }
+    ]
+  }
+}
