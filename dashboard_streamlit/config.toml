@@ -1,3 +1,9 @@
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+port = 8501
+
 [theme]
 base="dark"
 primaryColor="#0B84A5"
