@@ -72,13 +72,13 @@ def load_json_to_df(file_path, limit=None):
 
 # Mapping queries to files
 QUERY_TO_FILE = {
-    "daily_appointment_count": "outputs/daily_appointment_count.json",
-    "total_paid_by_user": "outputs/total_paid_by_user.json",
-    "appointment_time_distribution": "outputs/appointment_time_distribution.json",
-    "available_months": "outputs/available_months.json",
-    "courses_per_type_with_startTime": "outputs/courses_per_type_with_startTime.json",
-    "revenue_per_class_type_with_startTime": "outputs/revenue_per_class_type_with_startTime.json",
-    "revenue_per_day": "outputs/revenue_per_day.json",
+    "daily_appointment_count": "dashboard_streamlit/outputs/daily_appointment_count.json",
+    "total_paid_by_user": "dashboard_streamlit/outputs/total_paid_by_user.json",
+    "appointment_time_distribution": "dashboard_streamlit/outputs/appointment_time_distribution.json",
+    "available_months": "dashboard_streamlit/outputs/available_months.json",
+    "courses_per_type_with_startTime": "dashboard_streamlit/outputs/courses_per_type_with_startTime.json",
+    "revenue_per_class_type_with_startTime": "dashboard_streamlit/outputs/revenue_per_class_type_with_startTime.json",
+    "revenue_per_day": "dashboard_streamlit/outputs/revenue_per_day.json",
 }
 
 def run_named_query_local(query_name, limit=None):
