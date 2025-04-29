@@ -23,7 +23,9 @@ st.set_page_config(page_title="Demo GoSki KG Dashboard", layout="wide")
 # ----------------------------
 # Favicon
 # ----------------------------
-def get_base64_favicon(path):
+
+def get_base64_favicon(filename):
+    path = os.path.join(os.path.dirname(__file__), filename)
     with open(path, "rb") as f:
         data = f.read()
     return base64.b64encode(data).decode("utf-8")
