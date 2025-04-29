@@ -25,12 +25,16 @@ st.set_page_config(page_title="Demo GoSki KG Dashboard", layout="wide")
 # ----------------------------
 
 def get_base64_favicon(filename):
+    # Make the path relative to the location of this script
     path = os.path.join(os.path.dirname(__file__), filename)
+    if not os.path.exists(path):
+        # Try to load it assuming the script runs from the repo root (Streamlit Cloud default)
+        path = os.path.join("dashboard_streamlit", filename)
     with open(path, "rb") as f:
         data = f.read()
     return base64.b64encode(data).decode("utf-8")
 
-favicon = get_base64_favicon("favicon.png")
+favicon = get_base64_favicon("dashboard_streamlit/favicon.png")
 
 st.markdown(f"""
     <div style="display: flex; align-items: center; gap: 12px;">
