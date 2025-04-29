@@ -24,25 +24,33 @@ st.set_page_config(page_title="Demo GoSki KG Dashboard", layout="wide")
 # Favicon
 # ----------------------------
 
-def get_base64_favicon(filename):
-    # Make the path relative to the location of this script
-    path = os.path.join(os.path.dirname(__file__), filename)
+def get_base64_favicon(filename="favicon.png"):
+    # Try to resolve full path relative to this script
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(current_dir, filename)
+
+    # If not found, try from project root (Streamlit Cloud starts here)
     if not os.path.exists(path):
-        # Try to load it assuming the script runs from the repo root (Streamlit Cloud default)
-        path = os.path.join("dashboard_streamlit", filename)
+        alt_path = os.path.join("dashboard_streamlit", filename)
+        if os.path.exists(alt_path):
+            path = alt_path
+        else:
+            return None  # Optional: skip if still not found
+
     with open(path, "rb") as f:
-        data = f.read()
-    return base64.b64encode(data).decode("utf-8")
+        return base64.b64encode(f.read()).decode("utf-8")
 
-favicon = get_base64_favicon("dashboard_streamlit/favicon.png")
+favicon = get_base64_favicon()
 
-st.markdown(f"""
-    <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="data:image/png;base64,{favicon}" width="32" height="28"/>
-        <h1 style="margin: 0;">Demo GoSki Dashboard</h1>
-    </div>
-""", unsafe_allow_html=True)
-
+if favicon:
+    st.markdown(f"""
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <img src="data:image/png;base64,{favicon}" width="32" height="28"/>
+            <h1 style="margin: 0;">Demo GoSki Dashboard</h1>
+        </div>
+    """, unsafe_allow_html=True)
+else:
+    st.title("❄️ Demo GoSki Dashboard")
 # st.markdown("❄️ Demo GoSki Dashboard")
 
 # ----------------------------
