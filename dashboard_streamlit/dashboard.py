@@ -20,24 +20,24 @@ from yaml.loader import SafeLoader
 
 st.set_page_config(page_title="Demo GoSki KG Dashboard", layout="wide")
 
-# # ----------------------------
-# # Favicon
-# # ----------------------------
-# def get_base64_favicon(path):
-#     with open(path, "rb") as f:
-#         data = f.read()
-#     return base64.b64encode(data).decode("utf-8")
+# ----------------------------
+# Favicon
+# ----------------------------
+def get_base64_favicon(path):
+    with open(path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode("utf-8")
 
-# favicon = get_base64_favicon("favicon.png")
+favicon = get_base64_favicon("dashboard_streamlit/favicon.png")
 
-# st.markdown(f"""
-#     <div style="display: flex; align-items: center; gap: 12px;">
-#         <img src="data:image/png;base64,{favicon}" width="32" height="28"/>
-#         <h1 style="margin: 0;">Demo GoSki Dashboard</h1>
-#     </div>
-# """, unsafe_allow_html=True)
+st.markdown(f"""
+    <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="data:image/png;base64,{favicon}" width="32" height="28"/>
+        <h1 style="margin: 0;">Demo GoSki Dashboard</h1>
+    </div>
+""", unsafe_allow_html=True)
 
-st.markdown("❄️ Demo GoSki Dashboard")
+# st.markdown("❄️ Demo GoSki Dashboard")
 
 # ----------------------------
 # Shared Local JSON Loading
@@ -58,13 +58,13 @@ def load_json_to_df(file_path, limit=None):
 
 # Mapping queries to files
 QUERY_TO_FILE = {
-    "daily_appointment_count": "outputs/daily_appointment_count.json",
-    "total_paid_by_user": "outputs/total_paid_by_user.json",
-    "appointment_time_distribution": "outputs/appointment_time_distribution.json",
-    "available_months": "outputs/available_months.json",
-    "courses_per_type_with_startTime": "outputs/courses_per_type_with_startTime.json",
-    "revenue_per_class_type_with_startTime": "outputs/revenue_per_class_type_with_startTime.json",
-    "revenue_per_day": "outputs/revenue_per_day.json",
+    "daily_appointment_count": "dashboard_streamlit/outputs/daily_appointment_count.json",
+    "total_paid_by_user": "dashboard_streamlit/outputs/total_paid_by_user.json",
+    "appointment_time_distribution": "dashboard_streamlit/outputs/appointment_time_distribution.json",
+    "available_months": "dashboard_streamlit/outputs/available_months.json",
+    "courses_per_type_with_startTime": "dashboard_streamlit/outputs/courses_per_type_with_startTime.json",
+    "revenue_per_class_type_with_startTime": "dashboard_streamlit/outputs/revenue_per_class_type_with_startTime.json",
+    "revenue_per_day": "dashboard_streamlit/outputs/revenue_per_day.json",
 }
 
 def run_named_query_local(query_name, limit=None):
@@ -434,7 +434,7 @@ def display_data():
 # Authentication
 # ----------------------------
 
-with open("config.yaml") as file:
+with open("dashboard_streamlit/config.yaml") as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 authenticator = stauth.Authenticate(
