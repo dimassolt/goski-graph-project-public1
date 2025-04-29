@@ -20,22 +20,24 @@ from yaml.loader import SafeLoader
 
 st.set_page_config(page_title="Demo GoSki KG Dashboard", layout="wide")
 
-# ----------------------------
-# Favicon
-# ----------------------------
-def get_base64_favicon(path):
-    with open(path, "rb") as f:
-        data = f.read()
-    return base64.b64encode(data).decode("utf-8")
+# # ----------------------------
+# # Favicon
+# # ----------------------------
+# def get_base64_favicon(path):
+#     with open(path, "rb") as f:
+#         data = f.read()
+#     return base64.b64encode(data).decode("utf-8")
 
-favicon = get_base64_favicon("favicon.png")
+# favicon = get_base64_favicon("favicon.png")
 
-st.markdown(f"""
-    <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="data:image/png;base64,{favicon}" width="32" height="28"/>
-        <h1 style="margin: 0;">Demo GoSki Dashboard</h1>
-    </div>
-""", unsafe_allow_html=True)
+# st.markdown(f"""
+#     <div style="display: flex; align-items: center; gap: 12px;">
+#         <img src="data:image/png;base64,{favicon}" width="32" height="28"/>
+#         <h1 style="margin: 0;">Demo GoSki Dashboard</h1>
+#     </div>
+# """, unsafe_allow_html=True)
+
+st.markdown("❄️ Demo GoSki Dashboard")
 
 # ----------------------------
 # Shared Local JSON Loading
