@@ -7,8 +7,8 @@ A data-driven project for managing and visualizing cross-country skiing appointm
 
 ## ⚙️ Streamlit Public with Auth
 
+**link**: https://goski-graph-project-public.streamlit.app/
 **username**: demo
-
 **password**: abc123
 
 ---
