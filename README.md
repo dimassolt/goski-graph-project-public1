@@ -5,7 +5,7 @@ A data-driven project for managing and visualizing cross-country skiing appointm
 
 ---
 
-## ⚙️ Streamlit Public with Auth
+## ⚙️ Simplified Streamlit Public App with Auth
 
 **link**: https://goski-graph-project-public.streamlit.app/
 
@@ -91,7 +91,7 @@ Managed securely with hashed passwords (see config.yaml).
 ---
 
 ## 🔒 Security Note
-Passwords are hashed using bcrypt.
+Passwords are hashed using bcrypt. (visit 2.2.dashboard/hash.py for password)
 
 Streamlit Authenticator manages login sessions and cookies.
 
