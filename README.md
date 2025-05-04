@@ -7,9 +7,11 @@ A data-driven project for managing and visualizing cross-country skiing appointm
 
 ## 📚 About the Project
 
-This project builds a **knowledge graph** from GoSki appointment data,  
+This project builds a **knowledge graph** from GoSki appointment data,
 serves it using an **Apache Jena Fuseki** server,  
 and visualizes insights using a **secure Streamlit dashboard**.
+
+P.s data is facked, but trends are kept which allows to build a relevant hypotesis and conduct analysis. 
 
 ---
 
