@@ -7,8 +7,8 @@ A data-driven project for managing and visualizing cross-country skiing appointm
 
 ## ⚙️ Streamlit Public with Auth
 
-**username**: demo
-**password**: abc123
+**username**: demo.
+**password**: abc123.
 
 ---
 
