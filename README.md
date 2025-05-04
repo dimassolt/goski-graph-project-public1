@@ -60,6 +60,7 @@ bash
 git clone https://github.com/dimassolt/goski-graph-project-public1.git
 cd goski-graph-project-public1
 '''
+
 2. **Build and run Docker containers**:
 
 '''
