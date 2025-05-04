@@ -5,6 +5,13 @@ A data-driven project for managing and visualizing cross-country skiing appointm
 
 ---
 
+## ⚙️ Streamlit Public with Auth
+
+**username**: demo
+**password**: abc123
+
+---
+
 ## 📚 About the Project
 
 This project builds a **knowledge graph** from GoSki appointment data,
@@ -53,7 +60,7 @@ GOSKI-GRAPH-PROJECT-PUBLIC/
 
 ---
 
-## ⚙️ Quickstart
+## ⚙️ Run Using Docker
 
 1. **Clone the repo**:
 
