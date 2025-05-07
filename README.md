@@ -110,8 +110,8 @@ Revenue over time (area charts & calendar heatmaps)
 
 ---
 
-## 🧑‍💻 Author
-Dmitrii Soltaganov
+## 🧑‍💻 Authors
+Dmitrii Soltaganov and Julia Perminova
 
 ---
 
